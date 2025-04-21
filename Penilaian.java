@@ -75,4 +75,5 @@ public class Penilaian {
         public double hitungNilaiAkhir(int index) {
             return (0.3 * nilaiTugas[index]) + (0.3 * nilaiUTS[index]) + (0.4 * nilaiUAS[index]);
         }
+        
 }
