@@ -12,7 +12,7 @@ public class Main {
             System.out.println("3. Tampilkan Data Penilaian");
             System.out.println("4. Urutkan Mahasiswa Berdasarkan Nilai AKhir");
             System.out.println("5. Cari Mahasiswa Berdasarkan NIM");
-            System.out.println("6. Keluar");
+            System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
             int pilihan = sc.nextInt();
             sc.nextLine();
