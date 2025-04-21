@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        Penilaian penilaian = new Penilaian();
         Scanner sc = new Scanner(System.in);
 
         while (true) {
@@ -18,15 +18,15 @@ public class Main {
             sc.nextLine();
 
             if (pilihan == 1) {
-
+                penilaian.tampilkanMahasiswa();
             } else if (pilihan == 2) {
-
+                penilaian.tampilkanMataKuliah();
             } else if (pilihan == 3) {
-
+                penilaian.tampilkanPenilaian();
             } else if (pilihan == 4) {
-
+                penilaian.urutkanNilaiAkhir();
             } else if (pilihan == 5) {
-
+                penilaian.cariMahasiswa(sc);
             } else if (pilihan == 0) {
                 System.out.println("Terima kasih telah menggunakan Sistem Akademik.");
                 return;

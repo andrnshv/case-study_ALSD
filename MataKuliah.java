@@ -12,7 +12,7 @@ public class MataKuliah {
         System.out.println("Kode MK: " + kodeMK + " | Nama: " + namaMK + " | SKS: " + sks);
     }
 
-    static MataKuliah[] dataMataKuliah = {
+    static MataKuliah[] daftarMataKuliah = {
         new MataKuliah("MK001", "Struktur Data", 3),
         new MataKuliah("MK002", "Basis Data", 3),
         new MataKuliah("MK003", "Desain Web", 3),
