@@ -18,7 +18,7 @@ public class Main {
             sc.nextLine();
 
             if (pilihan == 1) {
-
+                
             } else if (pilihan == 2) {
 
             } else if (pilihan == 3) {
@@ -36,4 +36,3 @@ public class Main {
         }
     }
 }
-
