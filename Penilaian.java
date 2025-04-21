@@ -68,12 +68,11 @@ public class Penilaian {
                 System.out.println("Mahasiswa Ditemukkan");
                 m.tampilMahasiswa();
             } else {
-                System.out.println("Mahasiswa tidak ditemukan");
+                System.out.println("Mahasiswa tidak ditemukan!");
             }
         }
 
         public double hitungNilaiAkhir(int index) {
             return (0.3 * nilaiTugas[index]) + (0.3 * nilaiUTS[index]) + (0.4 * nilaiUAS[index]);
         }
-        
-}
+    }
