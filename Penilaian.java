@@ -9,7 +9,7 @@ public class Penilaian {
     };
 
     MataKuliah[]mataKuliahPenilaian = {
-        mk[0], mk[0], mk[1], mk[1]
+        mk[0], mk[1], mk[0], mk[1], mk[2]
     };
 
     double[] nilaiTugas = {80, 60, 75, 85, 80};
