@@ -12,9 +12,9 @@ public class Penilaian {
         mk[0], mk[0], mk[1], mk[1]
     };
 
-        double[] nilaiTugas = {80, 60, 75, 85, 80};
-        double[] nilaiUTS = {85, 75, 70, 90, 90};
-        double[] nilaiUAS = {90, 70, 80, 95, 65};
+    double[] nilaiTugas = {80, 60, 75, 85, 80};
+    double[] nilaiUTS   = {85, 75, 70, 90, 90};
+    double[] nilaiUAS   = {90, 70, 80, 95, 65};
 
         void tampilkanMahasiswa(){
             System.out.println("\nDaftar Mahasiswa: ");
@@ -44,7 +44,7 @@ public class Penilaian {
                    (0.3 * nilaiUTS[index]) +
                    (0.4 * nilaiUAS[index]);
         }
-
+        
         void urutkanNilaiAkhir() {
             System.out.println("\nData Penilaian (Urut Nilai Akhir):");
             int n = mahasiswaPenilaian.length;
@@ -79,4 +79,6 @@ public class Penilaian {
             System.out.println("Mahasiswa tidak ditemukan.");
         }
     }
+    
+    
 }
