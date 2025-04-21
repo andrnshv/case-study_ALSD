@@ -1,8 +1,8 @@
 public class Mahasiswa {
-
     
     String nim, nama, prodi;
 
+    
     public Mahasiswa(String nim, String nama, String prodi) {
         this.nim = nim;
         this.nama = nama;
