@@ -18,14 +18,4 @@ public class Mahasiswa {
         new Mahasiswa("22002", "Budi Santoso", "Informatika"),
         new Mahasiswa("22003", "Citra Dewi", "Sistem Informasi Bisnis")
     };
-
-    public static Mahasiswa cariMahasiswaDenganNim(String nim) {
-        for (Mahasiswa m : daftarMahasiswa) {
-            if (m.nim.equals(nim)) {
-                return m;
-            }
-        }
-        return null;
-    }
-
 }
